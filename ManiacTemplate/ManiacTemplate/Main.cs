@@ -1,5 +1,6 @@
 ﻿using HesaEngine.SDK;
 using HesaEngine.SDK.Enums;
+using HesaEngine.SDK.GameObjects;
 using ManiacTemplate.Modes;
 using static ManiacTemplate.SpellManager;
 using static ManiacTemplate.MenuManager;
@@ -43,6 +44,8 @@ namespace ManiacTemplate
             Game.OnTick += Game_OnTick;
             Chat.Print(Name + " Loaded Successfully");
         }
+
+        
 
         private void Game_OnTick()
         {

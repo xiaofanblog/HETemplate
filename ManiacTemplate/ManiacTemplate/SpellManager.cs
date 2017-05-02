@@ -1,6 +1,8 @@
 ﻿using System;
 using HesaEngine.SDK;
 using HesaEngine.SDK.Enums;
+using HesaEngine.SDK.GameObjects;
+using static ManiacTemplate.MenuManager;
 
 namespace ManiacTemplate
 {
